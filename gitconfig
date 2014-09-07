@@ -1,0 +1,10 @@
+[user]
+	name = Brian
+	email = iamamthwiz+GitHub@gmail.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]
+	editor = vim
+[push]
+	default = simple
