@@ -7,7 +7,7 @@
 [core]
 	editor = vim
 [push]
-	default = simple
+    default = simple
 [alias]
     ic = commit -m 'initial commit'
     l = log
