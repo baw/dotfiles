@@ -11,6 +11,7 @@ set fish_plugins rvm up git mkcd activator jvm aa ssh-add haskell
 
 # Path to your custom folder (default path is $FISH/custom)
 #set fish_custom $HOME/dotfiles/oh-my-fish
+set PATH /Applications/Postgres.app/Contents/Versions/9.3/bin $PATH
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
