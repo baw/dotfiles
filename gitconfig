@@ -12,6 +12,7 @@
     co = checkout
     ic = commit -m 'initial commit'
     l = log
+    m = checkout master
     master = checkout master
     s = status 
     update = !git push origin master && git push heroku master
