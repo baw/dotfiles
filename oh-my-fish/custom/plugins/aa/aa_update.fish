@@ -1,5 +1,7 @@
 set repos prep-work/ meta/ assessment-prep/ solutions/ ruby-curriculum/ sql-curriculum/ rails-curriculum/ js-curriculum/ lightning-talks/ job-search-curriculum/ jobberwocky/ algorithms-curriculum/ backbone-curriculum/
 
+set current (pwd)
+
 function ssh_check
     if ssh-add -l | grep -oq 'bitbucket'
         echo 'Bitbucket key already added'
@@ -36,4 +38,6 @@ function aa_update
     ssh_check
     aa_pull
     aa_push
+    
+    cd $current
 end
