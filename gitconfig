@@ -1,9 +1,10 @@
 [user]
-	name = Brian
+	name = Brian Weiser
 	email = iamamthwiz+GitHub@gmail.com
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
 [core]
 	editor = vim
 [push]
@@ -14,5 +15,9 @@
     l = log
     m = checkout master
     master = checkout master
-    s = status 
+    s = status
     update = !git push origin master && git push heroku master
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
