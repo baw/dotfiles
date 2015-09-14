@@ -17,6 +17,7 @@
     master = checkout master
     s = status
     update = !git push origin master && git push heroku master
+    pd = push origin --delete
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
