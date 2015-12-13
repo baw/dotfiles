@@ -18,6 +18,8 @@
     s = status
     update = !git push origin master && git push heroku master
     pd = push origin --delete
+    atl = commit --amend --no-edit
+    ob = rev-parse --abbrev-ref HEAD
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
