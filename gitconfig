@@ -1,12 +1,12 @@
 [user]
-	name = Brian Weiser
-	email = iamamthwiz+GitHub@gmail.com
+    name = Brian Weiser
+    email = iamamthwiz+GitHub@gmail.com
 [filter "media"]
-	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
+    required = true
+    clean = git media clean %f
+    smudge = git media smudge %f
 [core]
-	editor = vim
+    editor = vim
 [push]
     default = simple
 [alias]
@@ -21,10 +21,10 @@
     atl = commit --amend --no-edit
     ob = rev-parse --abbrev-ref HEAD
 [filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
+    clean = git hawser clean %f
+    smudge = git hawser smudge %f
+    required = true
 [filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
+    clean = git lfs clean %f
+    smudge = git lfs smudge %f
+    required = true
